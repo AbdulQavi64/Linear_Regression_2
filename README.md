@@ -23,7 +23,7 @@ If you wish to use your own dataset, ensure it has the required columns and prep
 We employ a **Multiple Linear Regression** model from `scikit-learn`. The equation takes the form:
 premium = β₀ + β₁·age + β₂·weight + β₃·height + β₄·bmi + β₅·smoker + ... + ε
 Where β coefficients are learned during training using the Ordinary Least Squares (OLS) method. Categorical variables are one-hot encoded before fitting.
----------------------------------Dependencies-----------
+-Dependencies-----------
 Python 3.8+
 pandas
 numpy
